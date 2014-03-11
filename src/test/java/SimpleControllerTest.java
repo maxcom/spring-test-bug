@@ -27,7 +27,7 @@ public class SimpleControllerTest {
 
   @Before
   public void setup() {
-    this.mockMvc = webAppContextSetup(this.wac).build();
+    mockMvc = webAppContextSetup(wac).build();
   }
 
 
